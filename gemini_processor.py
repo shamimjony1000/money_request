@@ -8,7 +8,7 @@ load_dotenv()
 
 class GeminiProcessor:
     def __init__(self):
-        api_key = os.getenv('GOOGLE_API_KEY')
+        api_key = "AIzaSyCLyDgZNcE_v4wLMFF8SoimKga9bbLSun0"
         if not api_key:
             raise ValueError("GOOGLE_API_KEY not found in environment variables")
         genai.configure(api_key=api_key)
