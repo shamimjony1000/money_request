@@ -1,0 +1,6 @@
+streamlit
+pandas
+SpeechRecognition
+google-generativeai
+pyaudio
+python-dotenv
